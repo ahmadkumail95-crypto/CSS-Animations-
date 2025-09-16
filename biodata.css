@@ -1,0 +1,66 @@
+/* Reset & base */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  background: #f8fafc;
+  color: #1e293b;
+  max-width: 800px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.tagline {
+  color: #475569;
+  font-style: italic;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+h1, h2 {
+  color: #0f172a;
+  margin-bottom: 0.75rem;
+}
+ul { list-style: disc inside; }
+
+/* Links */
+a {
+  color: rgb(37, 99, 235);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  body { padding: 1rem; }
+  .profile-pic { width: 90px; height: 90px; }
+}
+.profile-pic {
+  background-image: url("/kami-boy.jpg");
+  background-repeat: repeat-x;
+opacity: 0.9;}
+
